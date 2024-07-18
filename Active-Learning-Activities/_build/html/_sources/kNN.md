@@ -45,7 +45,7 @@ Point A: Purchased (Blue)
 
 #### Recommended Materials
 
-It is recommended that this activity be done "off-line" and therefore requires some materials. The kNN board above can be printed in many different formats, but for sustainability of resources it is recommended that the image be printed as large as 24" x 36" and lamintated.
+It is recommended that this activity be done "off-line" and therefore requires some materials. The {ref}`kNN board <kNN-board>` above can be printed in many different formats, but for sustainability of resources it is recommended that the image be printed as large as 24" x 36" and lamintated.
 
 - printed kNN Board 
 - dry eraser markers (or some other erasable writing utensil)
@@ -67,7 +67,7 @@ Students use dry erase markers and rulers to aid in chosing and keeping track of
 
 3. Recommend a value for k based on your observations. Provide a rationale for why you chose that value. 
 
-4. Using the k value you have chosen, create estimated boundaries areas (like the example in {ref}`boundarylines-example` below). Include a picture of the board with the drawn boundaries. 
+4. Using the k value you have chosen, create estimated boundaries areas (like the example in {ref}`the example below <boundarylines-example>`). Include a picture of the board with the drawn boundaries. 
 
 5. Which areas of the graph did kNN do best in? Worst? Why do you think this is? 
 
