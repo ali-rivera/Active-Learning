@@ -34,7 +34,7 @@ This activity assumes that students have prior knowledge of the following terms 
 - overfitting vs. underfitting
 
 #### True Values
-<br /> Point A: Purchased (Blue)
+Point A: Purchased (Blue)
 <br /> Point B: Not Purchased (Orange)
 <br /> Point C: Not Purchased (Orange)
 <br /> Point D: Purchased (Blue)
@@ -55,14 +55,10 @@ Students use dry erase markers and rulers to aid in chosing and keeping track of
 **Questions**
 
 1. Using what you learned in class about kNN, explain in your own words (at a "rubber duck level") how the kNN model works. Be sure to answer the following questions in your explanation: 
-
-&emsp; &emsp; a. What does k represent? 
-
-&emsp; &emsp; b. How is a prediction made for a new observation (one not in the training data set)? 
-
-&emsp; &emsp; c. In this example, is kNN being used for classification or regression? Why? 
-
-&emsp; &emsp; d. Include references (links are fine) to any additional sources you use - you may find this [IBM article](https://www.ibm.com/topics/knn) helpful. 
+<br /> &emsp; &emsp; a. What does k represent? 
+<br /> &emsp; &emsp; b. How is a prediction made for a new observation (one not in the training data set)? 
+<br /> &emsp; &emsp; c. In this example, is kNN being used for classification or regression? Why? 
+<br /> &emsp; &emsp; d. Include references (links are fine) to any additional sources you use - you may find this [IBM article](https://www.ibm.com/topics/knn) helpful. 
 
 2. Include the table you recorded your classifications in for all 3 k values you tested for each of the 5 test points. 
 
