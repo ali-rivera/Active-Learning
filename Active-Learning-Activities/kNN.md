@@ -21,8 +21,13 @@
 
 **What am I going to do?** Using the kNN board, you will first identify the 5 points in black. Then, you will classify these points as one of two classes: purchased - blue or not purchased - orange. Choose 3 k values (must be greater than 1 and odd), find the k nearest neighboring points using Euclidean distance – a straight line between 2 points and classify the point as purchased or not purchased. Record the classification for each point in a table. Then, compare these results to the actual class (obtained from your TA) to pick the best k value and answer the questions below. 
 
+(instr_notes) = ### Instructor Notes
+
 ### Board 
 ```{figure} kNN_output.png
+:name: kNN-board
+
+Board students will use in the activity. See {ref}`instr_notes` below for details.
 ```
 
 ### Instructor Notes
