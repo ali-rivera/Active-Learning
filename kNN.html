@@ -372,12 +372,16 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#description">Description</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#summary-of-learning-objectives">Summary of Learning Objectives</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#pre-reading">Pre-reading</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#active-learning-session-materials">Active Learning session materials</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#student-instructions">Student Instructions</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#board">Board</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#instructor-notes">Instructor Notes</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#true-values">True Values</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#recommended-materials">Recommended Materials</a></li>
+</ul>
+</li>
 </ul>
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#assessment">Assessment</a></li>
@@ -395,12 +399,12 @@ document.write(`
                   
   <section class="tex2jax_ignore mathjax_ignore" id="knn-on-a-board">
 <h1>kNN on a Board<a class="headerlink" href="#knn-on-a-board" title="Link to this heading">#</a></h1>
-<section id="description">
-<h2>Description<a class="headerlink" href="#description" title="Link to this heading">#</a></h2>
-<p>kNN is a widely used Machine Learning algorithm that is most commonly used for classification. This exercise allows students to trace the alogorithm by hand on laminated foam boards and determine the best k value to use from a set of “test” data points.</p>
-</section>
 <section id="summary-of-learning-objectives">
 <h2>Summary of Learning Objectives<a class="headerlink" href="#summary-of-learning-objectives" title="Link to this heading">#</a></h2>
+<p><strong>Learning Objectives:</strong>
+Learning Objective 1: Students will be able to explain the process of a kNN alogirthm for classification.
+Learning Objective 2: Students will be able to evaluate k values to choose the optimal value and justify their choice with evidence.
+Learning Objective 3: Students will be able to visualize how hyperparameter choice is represented in 2-dimensional space.</p>
 </section>
 <section id="pre-reading">
 <h2>Pre-reading<a class="headerlink" href="#pre-reading" title="Link to this heading">#</a></h2>
@@ -421,17 +425,46 @@ Student Instructions</p>
 <img alt="_images/kNN_output.png" src="_images/kNN_output.png" />
 </figure>
 </section>
+<section id="instructor-notes">
+<h3>Instructor Notes<a class="headerlink" href="#instructor-notes" title="Link to this heading">#</a></h3>
+<p>This activity assumes that students have prior knowledge of the following terms in the context of data science:</p>
+<ul class="simple">
+<li><p>algorithmic thinking</p></li>
+<li><p>classification models</p></li>
+<li><p>training vs. test data</p></li>
+<li><p>evaluation criteria</p></li>
+<li><p>overfitting vs. underfitting</p></li>
+</ul>
+<section id="true-values">
+<h4>True Values<a class="headerlink" href="#true-values" title="Link to this heading">#</a></h4>
+<p>Point A: Purchased (Blue)
+Point B: Not Purchased (Orange)
+Point C: Not Purchased (Orange)
+Point D: Purchased (Blue)
+Point E: Purchased (Blue)</p>
+</section>
+<section id="recommended-materials">
+<h4>Recommended Materials<a class="headerlink" href="#recommended-materials" title="Link to this heading">#</a></h4>
+<p>It is recommended that this activity be done “off-line” and therefore requires some materials. The kNN board above can be printed in many different formats, but for sustainability of resources it is recommended that the image be printed as large as 24” x 36” and lamintated.</p>
+<ul class="simple">
+<li><p>printed kNN Board</p></li>
+<li><p>dry eraser markers (or some other erasable writing utensil)</p></li>
+<li><p>rulers</p></li>
+</ul>
+<p>Students use dry erase markers and rulers to aid in chosing and keeping track of the negihbors as they classify each of the test points.</p>
+</section>
+</section>
 </section>
 <section id="assessment">
 <h2>Assessment<a class="headerlink" href="#assessment" title="Link to this heading">#</a></h2>
-<p>**Questions **</p>
+<p><strong>Questions</strong></p>
 <ol class="arabic simple">
 <li><p>Using what you learned in class about kNN, explain in your own words (at a “rubber duck level”) how the kNN model works. Be sure to answer the following questions in your explanation:</p></li>
 </ol>
-<p><br />   a. What does k represent?</p>
-<p><br />   b. How is a prediction made for a new observation (one not in the training data set)?</p>
-<p><br />   c. In this example, is kNN being used for classification or regression? Why?</p>
-<p><br />   d. Include references (links are fine) to any additional sources you use - you may find this <a class="reference external" href="https://www.ibm.com/topics/knn">IBM article</a> helpful.</p>
+<p>  a. What does k represent?</p>
+<p>  b. How is a prediction made for a new observation (one not in the training data set)?</p>
+<p>  c. In this example, is kNN being used for classification or regression? Why?</p>
+<p>  d. Include references (links are fine) to any additional sources you use - you may find this <a class="reference external" href="https://www.ibm.com/topics/knn">IBM article</a> helpful.</p>
 <ol class="arabic simple" start="2">
 <li><p>Include the table you recorded your classifications in for all 3 k values you tested for each of the 5 test points.</p></li>
 <li><p>Recommend a value for k based on your observations. Provide a rationale for why you chose that value.</p></li>
@@ -451,13 +484,22 @@ Student Instructions</p>
 </thead>
 <tbody>
 <tr class="row-even"><td><p><strong>Formatting</strong></p></td>
-<td><p>- 2 pages max <br /> - PDF format <br /> - Headings <br />   - Lab Name <br />   - Your name, course, date <br />   -Questions</p></td>
-</tr>
-<tr class="row-odd"><td><p><strong>Questions</strong></p></td>
-<td><p>- Goal: Explore the kNN algorithm through the guided questions <br /> - Detailed responses to the questions that include examples from your experience in lab and lecture where appropriate <br /> - Completed table for your 3 k values <br /> - Image of the graph with your drawn boundary lines <br /> - Format your responses in a numerical list corresponding to the questions list</p></td>
+<td><p>- 2 pages max <br /></p></td>
 </tr>
 </tbody>
 </table>
+<ul class="simple">
+<li><p>PDF format <br /></p></li>
+<li><p>Headings <br />
+  - Lab Name <br />
+  - Your name, course, date <br />
+  -Questions  |
+| <strong>Questions</strong>      | - Goal: Explore the kNN algorithm through the guided questions
+<br /> - Detailed responses to the questions that include examples from your experience in lab and lecture where appropriate
+<br /> - Completed table for your 3 k values
+<br /> - Image of the graph with your drawn boundary lines
+<br /> - Format your responses in a numerical list corresponding to the questions list  |</p></li>
+</ul>
 <p><strong>Acknowledgements:</strong> Special thanks to Jess Taggart from UVA CTE for coaching us. This structure is pulled directly from <a class="reference external" href="https://cte.virginia.edu/blog/2020/12/04/alternative-grading-practices-support-both-equity-and-learning">Streifer &amp; Palmer (2020)</a>.</p>
 </section>
 </section>
@@ -517,12 +559,16 @@ Student Instructions</p>
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#description">Description</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#summary-of-learning-objectives">Summary of Learning Objectives</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#pre-reading">Pre-reading</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#active-learning-session-materials">Active Learning session materials</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#student-instructions">Student Instructions</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#board">Board</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#instructor-notes">Instructor Notes</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#true-values">True Values</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#recommended-materials">Recommended Materials</a></li>
+</ul>
+</li>
 </ul>
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#assessment">Assessment</a></li>
