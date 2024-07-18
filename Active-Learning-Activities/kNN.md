@@ -1,18 +1,17 @@
 # kNN on a Board
 
-## Description
-
-kNN is a widely used Machine Learning algorithm that is most commonly used for classification. This exercise allows students to trace the alogorithm by hand on laminated foam boards and determine the best k value to use from a set of "test" data points.
-
 ## Summary of Learning Objectives
 
+**Learning Objectives:**
+Learning Objective 1: Students will be able to explain the process of a kNN alogirthm for classification.
+Learning Objective 2: Students will be able to evaluate k values to choose the optimal value and justify their choice with evidence.
+Learning Objective 3: Students will be able to visualize how hyperparameter choice is represented in 2-dimensional space.
 
 ## Pre-reading 
 [Machine Learning with Python for Everyone by Mark Fenner, section 3.5 Simple Classifier #1: Nearest Neighbors, Long Distance Relationships, and Assumptions](https://learning.oreilly.com/library/view/machine-learning-with/9780134845708/ch03.xhtml#ch03lev1sec5)
 Student Instructions
 
 ## Active Learning session materials
-
 
 ### Student Instructions
 
@@ -26,20 +25,44 @@ Student Instructions
 ```{figure} kNN_output.png
 ```
 
+### Instructor Notes
+This activity assumes that students have prior knowledge of the following terms in the context of data science: 
+- algorithmic thinking
+- classification models
+- training vs. test data
+- evaluation criteria
+- overfitting vs. underfitting
+
+#### True Values
+Point A: Purchased (Blue)
+Point B: Not Purchased (Orange)
+Point C: Not Purchased (Orange)
+Point D: Purchased (Blue)
+Point E: Purchased (Blue)
+
+#### Recommended Materials
+
+It is recommended that this activity be done "off-line" and therefore requires some materials. The kNN board above can be printed in many different formats, but for sustainability of resources it is recommended that the image be printed as large as 24" x 36" and lamintated.
+
+- printed kNN Board 
+- dry eraser markers (or some other erasable writing utensil)
+- rulers
+
+Students use dry erase markers and rulers to aid in chosing and keeping track of the negihbors as they classify each of the test points.
 
 ## Assessment
 
-**Questions **
+**Questions**
 
 1. Using what you learned in class about kNN, explain in your own words (at a "rubber duck level") how the kNN model works. Be sure to answer the following questions in your explanation: 
 
-<br /> &emsp; a. What does k represent? 
+&emsp; a. What does k represent? 
 
-<br /> &emsp; b. How is a prediction made for a new observation (one not in the training data set)? 
+&emsp; b. How is a prediction made for a new observation (one not in the training data set)? 
 
-<br /> &emsp; c. In this example, is kNN being used for classification or regression? Why? 
+&emsp; c. In this example, is kNN being used for classification or regression? Why? 
 
-<br /> &emsp; d. Include references (links are fine) to any additional sources you use - you may find this [IBM article](https://www.ibm.com/topics/knn) helpful. 
+&emsp; d. Include references (links are fine) to any additional sources you use - you may find this [IBM article](https://www.ibm.com/topics/knn) helpful. 
 
 2. Include the table you recorded your classifications in for all 3 k values you tested for each of the 5 test points. 
 
@@ -57,7 +80,16 @@ Student Instructions
 **How will I know I have succeeded?**
 | **Specs Category** | **Specs Details** |
 |----------------|---------------|
-| **Formatting**     | - 2 pages max <br /> - PDF format <br /> - Headings <br /> &emsp; - Lab Name <br /> &emsp; - Your name, course, date <br /> &emsp; -Questions  |
-| **Questions**      | - Goal: Explore the kNN algorithm through the guided questions <br /> - Detailed responses to the questions that include examples from your experience in lab and lecture where appropriate <br /> - Completed table for your 3 k values <br /> - Image of the graph with your drawn boundary lines <br /> - Format your responses in a numerical list corresponding to the questions list  |
+| **Formatting**     | - 2 pages max <br /> 
+- PDF format <br /> 
+- Headings <br /> 
+&emsp; - Lab Name <br /> 
+&emsp; - Your name, course, date <br /> 
+&emsp; -Questions  |
+| **Questions**      | - Goal: Explore the kNN algorithm through the guided questions 
+<br /> - Detailed responses to the questions that include examples from your experience in lab and lecture where appropriate 
+<br /> - Completed table for your 3 k values 
+<br /> - Image of the graph with your drawn boundary lines 
+<br /> - Format your responses in a numerical list corresponding to the questions list  |
 
 **Acknowledgements:** Special thanks to Jess Taggart from UVA CTE for coaching us. This structure is pulled directly from [Streifer & Palmer (2020)](https://cte.virginia.edu/blog/2020/12/04/alternative-grading-practices-support-both-equity-and-learning). 
