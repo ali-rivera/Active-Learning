@@ -67,7 +67,7 @@ Students use dry erase markers and rulers to aid in chosing and keeping track of
 
 3. Recommend a value for k based on your observations. Provide a rationale for why you chose that value. 
 
-4. Using the k value you have chosen, create estimated boundaries areas (like the example in {numref}`boundarylines-example` below). Include a picture of the board with the drawn boundaries. 
+4. Using the k value you have chosen, create estimated boundaries areas (like the example in {ref}`boundarylines-example` below). Include a picture of the board with the drawn boundaries. 
 
 5. Which areas of the graph did kNN do best in? Worst? Why do you think this is? 
 
