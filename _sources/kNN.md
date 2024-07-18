@@ -26,7 +26,7 @@
 ```{figure} kNN_output.png
 :name: kNN-board
 
-Board students will use in the activity. See [Recommended Materials](#### Recommended Materials) below for details.
+Board students will use in the activity. See Recommended Materials below for details.
 ```
 
 ### Instructor Notes
