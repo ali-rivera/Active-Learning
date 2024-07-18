@@ -25,7 +25,7 @@
 ```{figure} kNN_output.png
 :name: kNN-board
 
-Board students will use in the activity. See {ref}`#### Recommended Materials` below for details.
+Board students will use in the activity. See {ref}`rec_materials` below for details.
 ```
 
 ### Instructor Notes
@@ -43,6 +43,8 @@ Point A: Purchased (Blue)
 <br /> Point D: Purchased (Blue)
 <br /> Point E: Purchased (Blue)
 
+
+(rec_materials) =
 #### Recommended Materials
 
 It is recommended that this activity be done "off-line" and therefore requires some materials. The {ref}`kNN board <kNN-board>` above can be printed in many different formats, but for sustainability of resources it is recommended that the image be printed as large as 24" x 36" and lamintated.
@@ -73,7 +75,11 @@ Students use dry erase markers and rulers to aid in chosing and keeping track of
 
 6. Overfitting and underfitting are common issues in machine learning. Explain why picking a k value too small overfits your model, and a k value too large underfits your model. 
 
+```{figure} image.png
+:name: boundarylines-example
 
+Example of boundary lines mapped onto space for k=1 & k=15
+```
 
 
 ## Evaluation rubric
