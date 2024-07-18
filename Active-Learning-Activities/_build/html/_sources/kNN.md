@@ -22,10 +22,11 @@
 **What am I going to do?** Using the kNN board, you will first identify the 5 points in black. Then, you will classify these points as one of two classes: purchased - blue or not purchased - orange. Choose 3 k values (must be greater than 1 and odd), find the k nearest neighboring points using Euclidean distance – a straight line between 2 points and classify the point as purchased or not purchased. Record the classification for each point in a table. Then, compare these results to the actual class (obtained from your TA) to pick the best k value and answer the questions below. 
 
 ### Board 
+
 ```{figure} kNN_output.png
 :name: kNN-board
 
-Board students will use in the activity. See {ref}`rec_materials` below for details.
+Board students will use in the activity. See [Recommended Materials](#### Recommended-Materials) below for details.
 ```
 
 ### Instructor Notes
@@ -37,14 +38,12 @@ This activity assumes that students have prior knowledge of the following terms 
 - overfitting vs. underfitting
 
 #### True Values
-Point A: Purchased (Blue)
-<br /> Point B: Not Purchased (Orange)
-<br /> Point C: Not Purchased (Orange)
-<br /> Point D: Purchased (Blue)
-<br /> Point E: Purchased (Blue)
+**Point A:** Purchased (Blue)
+<br /> **Point B:** Not Purchased (Orange)
+<br /> **Point C:** Not Purchased (Orange)
+<br /> **Point D:** Purchased (Blue)
+<br /> **Point E:** Purchased (Blue)
 
-
-(rec_materials) =
 #### Recommended Materials
 
 It is recommended that this activity be done "off-line" and therefore requires some materials. The {ref}`kNN board <kNN-board>` above can be printed in many different formats, but for sustainability of resources it is recommended that the image be printed as large as 24" x 36" and lamintated.
