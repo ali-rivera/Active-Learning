@@ -25,7 +25,7 @@
 ```{figure} kNN_output.png
 :name: kNN-board
 
-Board students will use in the activity. See {ref}`Instructor Notes` below for details.
+Board students will use in the activity. See {ref}`#### Recommended Materials` below for details.
 ```
 
 ### Instructor Notes
@@ -67,17 +67,13 @@ Students use dry erase markers and rulers to aid in chosing and keeping track of
 
 3. Recommend a value for k based on your observations. Provide a rationale for why you chose that value. 
 
-4. Using the k value you have chosen, create estimated boundaries areas (like the example in {ref}`the example below <boundarylines-example>`). Include a picture of the board with the drawn boundaries. 
+4. Using the k value you have chosen, create estimated boundaries areas (like the {ref}`example below <boundarylines-example>`). Include a picture of the board with the drawn boundaries. 
 
 5. Which areas of the graph did kNN do best in? Worst? Why do you think this is? 
 
 6. Overfitting and underfitting are common issues in machine learning. Explain why picking a k value too small overfits your model, and a k value too large underfits your model. 
 
-```{figure} image.png
-:name: boundarylines-example
 
-Example of boundary lines mapped onto space for k=1 & k=15
-```
 
 
 ## Evaluation rubric
